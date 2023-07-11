@@ -1,5 +1,5 @@
 # WorkShopwebsite
-This is my WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
+This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 
 # Website in work shop
 - https://exchangemoneyworkshop.netlify.app/
