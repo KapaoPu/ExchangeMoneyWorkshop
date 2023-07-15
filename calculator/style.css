@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.Calculator{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 30px -5px rgb(0, 0, 0,0.4);
+}
+.calculator-display{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px 10px 0 0 ;
+}
+.calculator-display h1{
+    margin: 0;
+    font-size: 45px;
+    padding: 25px;
+    font-weight: 100;
+    overflow-x: auto;
+}
+.calculator-button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /* กำหนดให้มี 4 column มีขนาด 1 fr*/
+    grid-gap: 10px;
+    padding: 10px;
+}
+.equal{
+    grid-column: -2; /* ย้ายตำแหน่งแนวตั้งไป -2 */
+    grid-row: 2/span 4; /* การใช้ span จะเป็นการนับช่อง 2 คือการย้ายไปอยู่ใน row ที่ 2 และ หลัง span คือกินพื้นที่ไปกี่ส่วน ในที่นี้คือ 4 ส่วน */
+}
+button{
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(97, 97, 97, 0.74);
+    color: white;
+}
+.operator{
+    background-color: orange;
+    color: white;
+}
+.clear-btn{
+    background-color: rgba(207, 205, 205, 0.397);
+    color: black;
+}
+button:hover{
+    filter: brightness(110%);
+}
+button:active{
+    transform: translateY(1px);
+}
+@media screen and (max-width:600px){
+    .Calculator{
+        width: 95%;
+    }
+}
