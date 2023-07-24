@@ -13,5 +13,5 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://countdown-newyearworkshop.netlify.app/
 
 # Credit
-Dev by : Tanabordee Pateepbutsagon
-mentor : Kongraksiam
+- Dev by : Tanabordee Pateepbutsagon
+- mentor : Kongraksiam
