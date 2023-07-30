@@ -1,0 +1,103 @@
+:root{
+    --category-1:#8F8AF7;
+    --category-2:#FD52EC;
+    --category-3:#00FF51;
+    --category-4:#FF0000;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #794f1b;
+    color: rgb(255, 255, 255);
+}
+h1{
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px black;
+}
+.main-title{
+    text-align: center;
+    font: 3rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.drag-container{
+    margin: 20px;
+}
+.drag-list{
+    display: flex;
+    align-items: flex-start;
+}
+.drag-column{
+    flex: 1; /* ทำให้ item ที่อยู่แถวเดียวกันมีขนาดเท่ากัน */
+    margin: 0 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0,0.4);
+    border-radius: 15px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.backlog-column .header{
+    background-color: var(--category-1);
+}
+.progress-column .header{
+    background-color: var(--category-2);
+}
+.complete-column .header{
+    background-color: var(--category-3);
+}
+.reject-column .header{
+    background-color: var(--category-4);
+}
+.custom-scroll{
+    overflow-y: auto;
+    max-height: 52vh;
+}
+.drag-item-list{
+    min-height: 50px;
+}
+.drag-item{
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(40px,-40px);
+    border-radius: 100%;
+    padding: 0px 10px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(100px,-40px);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 50%;
+}

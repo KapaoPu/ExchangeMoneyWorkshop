@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <h1 class="main-title">แผนผังการทำงาน</h1>
+    <div class="drag-container">
+       <ul class="drag-list"> 
+        <!-- Category 1 -->
+        <li class="drag-column backlog-column">
+            <span class="header">
+                <h1>งานค้าง</h1>
+            </span>
+            <div class="custom-scroll" id="backlog-content">
+                <ul class="drag-item-list first" id="backlog-list">
+                </ul>
+            </div>
+        </li>
+        <!-- Category 2 -->
+        <li class="drag-column progress-column">
+            <span class="header">
+                <h1>ดำเนินการ</h1>
+            </span>
+            <div class="custom-scroll" id=" progress-content">
+                <ul class="drag-item-list" id="backlog-list">
+                </ul>
+            </div>
+        </li>
+        <!-- Category 3-->
+        <li class="drag-column complete-column ">
+            <span class="header">
+                <h1>งานเสร็จแล้ว</h1>
+            </span>
+            <ul class="drag-item-list" id="complete-list">
+            </ul>
+            <div class="custom-scroll" id="complete-content"></div>
+        </li>
+        <!-- Category 4 -->
+        <li class="drag-column reject-column">
+            <span class="header">
+                <h1>งานไม่ผ่าน</h1>
+            </span>
+            <ul class="drag-item-list" id="reject-list">
+            </ul>
+            <div class="custom-scroll" id="reject-content"></div>
+        </li>
+       </ul> 
+    </div>
+    <form action="" id="form">
+        <button type="submit" id="button"> + </button>
+        <input type="text" id="input" >
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
