@@ -15,6 +15,8 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://unsplashapi-scroll.netlify.app/
 - https://kanban-board-workshop.netlify.app/
 - https://pictureinpicture-workshop.netlify.app/
+- https://cinema-workshop.netlify.app/
+
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
