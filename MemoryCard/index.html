@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Memory Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <button id="clear" class="clear">
+        <i class="fas fa-trash"></i>
+    </button>
+    <h1>เกมทายปัญหา
+        <button id="show" class="btn btn-small">
+            <i class="fas fa-plus"></i> เพิ่มคำถาม
+        </button>
+    </h1>
+    <div class="card-container cards" id="card-container"></div>
+    <div class="navigation">
+        <button id="prev" class="nav-button">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <p class="current" id="current"></p>
+        <button id="next" class="nav-button">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+    <div class="add-container" id="add-container">
+        <h3>
+            เพิ่มคำถาม
+            <button id="btn-hidden" class="btn btn-small btn-hidden">
+                <i class="fas fa-times"></i>
+            </button>
+        </h3>
+        <div class="formgroup">
+            <label for="">คำถาม</label>
+            <textarea cols="30" rows="10" id="question"></textarea>
+        </div>
+        <div class="formgroup">
+            <label for="">เฉลย</label>
+            <textarea cols="30" rows="10" id="answer"></textarea>
+        </div>
+        <button id="add-card" class="btn">
+            <i class="fa fa-plus"></i>เพิ่มโจทย์
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
