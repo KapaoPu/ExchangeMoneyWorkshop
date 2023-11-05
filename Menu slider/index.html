@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Slider | Workshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">เกี่ยวกับ</a></li>
+            <li><a href="#">ติดต่อเรา</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>Menu Slider | Workshop</h1>
+        <p>เรียนรู้การใช้ Menu Slider</p>
+        <button class="create-account" id="open">สร้างบัญชีผู้ใช้</button>
+    </header>
+    <div class="container">
+        <div class="left" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="right" data-aos="fade-right" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="left" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="right" data-aos="fade-right" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="left" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="right" data-aos="fade-right" data-aos-offset="100" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+        <div class="left" data-aos="fade-left" data-aos-offset="1s00" data-aos-duration="500">
+            <h2>Web Development Learning Menu Slider</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia laborum accusantium fuga dignissimos ipsum cum. Numquam fugit placeat voluptate dignissimos earum et sapiente quibusdam, optio a accusamus, saepe quisquam?</p>
+            <img src="logo.png" alt="" >
+        </div>
+
+    </div>
+    <div class="modal-container" id="modal">
+        <div class="modal" id="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>สร้างบัญชีผู้ใช้</h3>
+            </div>
+            <div class="modal-content">
+                <p>แบบฟอร์มสร้างบัญชี</p>
+                <form action="" class="modal-form">
+                    <div>
+                        <label for="">ชื่อผู้ใช้</label>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">อีเมล</label>
+                        <input type="email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">รหัสผ่าน</label>
+                        <input type="password" class="form-input">
+                    </div>
+                    <input type="submit" value="บันทึก" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
