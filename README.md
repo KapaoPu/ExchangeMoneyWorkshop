@@ -19,6 +19,7 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://movieapp-workshop.netlify.app/
 - https://memorycard-learning.netlify.app/
 - https://menusliderlearning.netlify.app/
+- https://speech-to-text-project.netlify.app/
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
