@@ -24,6 +24,7 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://expand-card-effect-project.netlify.app/
 - https://product-scroll-animation-pj.netlify.app/
 - https://split-page-content-pj.netlify.app/
+- https://quiz-appication-pj.netlify.app/
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
