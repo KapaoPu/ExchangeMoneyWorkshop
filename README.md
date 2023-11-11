@@ -26,6 +26,7 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://split-page-content-pj.netlify.app/
 - https://quiz-appication-pj.netlify.app/
 - https://text-keyboard-effect-pj.netlify.app/
+- https://rating-pj.netlify.app/
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
