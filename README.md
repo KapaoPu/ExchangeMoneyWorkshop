@@ -29,6 +29,7 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://rating-pj.netlify.app/
 - https://image-carousel-pj.netlify.app/
 - https://vertical-content-pj.netlify.app/
+- https://content-loading-pj.netlify.app/
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
