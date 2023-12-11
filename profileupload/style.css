@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+hr{
+    margin-bottom: 10px;
+}
