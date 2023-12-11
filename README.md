@@ -38,6 +38,7 @@ This is the WorkshopProject I learn from Udemy.com and my mentor is Kongraksiam
 - https://localstorage-learning-pj.netlify.app/
 - https://intl-pj.netlify.app/
 - https://hide-password-pj.netlify.app/
+- https://star-rating-pj.netlify.app/
 # Credit
 - Dev by : Tanabordee Pateepbutsagon
 - mentor : Kongraksiam
