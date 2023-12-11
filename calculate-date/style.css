@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+}
+input{
+    width: 200px;
+    margin: 20px;
+}
+h2{
+    margin-top: 20px;
+}
