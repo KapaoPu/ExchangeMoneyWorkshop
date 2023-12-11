@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #333;
+}
+.container{
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.rating{
+    gap: 25px;
+}
+i{
+    color: #e6e6e6;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+i:hover{
+    color: rgb(207, 181, 33);
+}
+h2{
+    margin-top: 30px;
+}
+.select{
+    color: rgb(207, 181, 33);
+}
